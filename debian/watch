@@ -1,0 +1,9 @@
+# See uscan(1) for format
+
+# Compulsory line, this is a version 4 file
+version=4
+
+# HTTP site (basic)
+opts="pgpmode=auto" \
+  https://www.musicpd.org/download/libmpdclient/2/ \
+  libmpdclient-([\d\.]+)\.tar\.xz debian uupdate
